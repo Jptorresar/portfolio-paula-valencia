@@ -1,0 +1,24 @@
+/* Welcome Page */
+.portfolio-welcome-container {
+    text-align: center;
+    padding: 4rem 0;
+  }
+  
+  .portfolio-profile-image {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+  }
+  
+  .portfolio-main-title {
+    font-size: 2.5rem;
+    color: var(--color-text-primary);
+    margin-bottom: 1rem;
+  }
+  
+  .portfolio-subtitle {
+    color: var(--color-text-secondary);
+    font-size: 1.25rem;
+  }

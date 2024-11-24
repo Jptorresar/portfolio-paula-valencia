@@ -1,0 +1,41 @@
+.portfolio-current-container {
+  width: 100%; /* Ocupar todo el ancho disponible */
+  max-width: 1200px; /* Limitar el tamaño máximo si es necesario */
+  margin: 0 auto; /* Centrar horizontalmente */
+  padding: 2rem; /* Espaciado interno opcional */
+}
+
+.portfolio-sectionTitle {
+  font-size: 2.5rem;
+  color: var(--color-text-primary);
+  margin-bottom: 1rem;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas iguales */
+  gap: 2rem; /* Espacio entre elementos */
+  width: 100%; /* Ocupar todo el ancho del contenedor */
+}
+
+.portfolio-grid-border {
+  display: flex; /* Alinear la imagen y el texto horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  gap: 1rem; /* Espacio entre la imagen y el texto (ajústalo según necesites) */
+  background-color: var(--color-white);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  justify-content: center;
+  
+}
+
+.portfolio-item {
+  align-items: center; /* Centrar verticalmente */
+  gap: 1.5rem; /* Espacio entre imagen y texto */
+}
+
+.portfolio-element-image{
+  height: 100%;
+  width: auto;
+}

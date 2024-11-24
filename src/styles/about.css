@@ -1,0 +1,59 @@
+/* About Page */
+.portfolio-about-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  
+  .portfolio-about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  
+  .portfolio-section-title {
+    font-size: 2rem;
+    color: var(--color-text-primary);
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 300;
+  }
+  
+  .portfolio-subsection-title {
+    font-size: 1.25rem;
+    color: var(--color-text-primary);
+    margin-bottom: 1rem;
+  }
+  
+  .portfolio-description-text {
+    color: var(--color-text-secondary);
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  .portfolio-contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .portfolio-contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .portfolio-contact-icon {
+    color: var(--color-text-secondary);
+  }
+  
+  a {
+    color: #2c3e50; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+    text-decoration: none; /* Sin subrayado */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse (opcional) */
+  }
+  
