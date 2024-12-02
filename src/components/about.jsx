@@ -58,7 +58,7 @@ function about() {
               <div className="portfolio-contact-item">
                 <FileDown className="portfolio-contact-icon" />
                 <a
-                  href="/public/Resume Valencia.pdf"
+                  href="/Resume Valencia.pdf"
                   download="Resume Valencia.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -66,7 +66,7 @@ function about() {
                   My Resume
                 </a>
                 <a
-                  href="/public/Cover Letter Valencia.pdf"
+                  href="/Cover Letter Valencia.pdf"
                   download="Cover Letter Valencia.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
