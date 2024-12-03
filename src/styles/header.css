@@ -1,6 +1,6 @@
   /* Header Styles */
   .portfolio-header {
-    background-color: var(--color-white);
+    background: linear-gradient(120deg, #c3aed6, #ee9ca7, #ffdde1);
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
   

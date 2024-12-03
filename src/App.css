@@ -1,10 +1,10 @@
 /* Base Colors */
 :root {
-  --color-background-light: #f8f9fa;
-  --color-text-primary: #2c3e50;
-  --color-text-secondary: #6c757d;
+  --color-text-primary: #3b272a;
+  --color-text-secondary: #593b3f;
   --color-accent-blue: #3498db;
   --color-white: #ffffff;
+  --font-family: 'Pacifico', cursive;
 }
 
 /* Page Wrapper */
@@ -20,3 +20,9 @@
   margin: 0 auto;
   padding: 2rem;
 }
+
+body {
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7, #c3aed6);
+  
+}
+

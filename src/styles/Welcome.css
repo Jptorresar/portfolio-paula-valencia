@@ -16,9 +16,11 @@
     font-size: 2.5rem;
     color: var(--color-text-primary);
     margin-bottom: 1rem;
+    font-family: var(--font-family);
   }
   
   .portfolio-subtitle {
     color: var(--color-text-secondary);
     font-size: 1.25rem;
+    font-family: var(--font-family);
   }
