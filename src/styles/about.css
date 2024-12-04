@@ -1,63 +1,77 @@
 /* About Page */
 .portfolio-about-container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 2rem 0;
-  }
-  
-  .portfolio-about-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-  }
-  
-  .portfolio-section-title {
-    font-size: 2rem;
-    color: var(--color-text-primary);
-    margin-bottom: 2rem;
-    text-align: center;
-    font-weight: 300;
-    font-family: var(--font-family);
-  }
-  
-  .portfolio-subsection-title {
-    font-size: 1.25rem;
-    color: var(--color-text-primary);
-    margin-bottom: 1rem;
-    font-family: var(--font-family);
-  }
-  
-  .portfolio-description-text {
-    color: var(--color-text-secondary);
-    line-height: 1.6;
-    text-align: justify;
-    font-family: var(--font-family);
-  }
-  
-  .portfolio-contact-list {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    font-family: var(--font-family);
-  }
-  
-  .portfolio-contact-item {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-  }
-  
-  .portfolio-contact-icon {
-    color: var(--color-text-secondary);
-  }
-  
-  a {
-    color: #2c3e50; /* Color del texto */
-    font-weight: bold; /* Texto en negrita */
-    text-decoration: none; /* Sin subrayado */
-  }
-  
-  a:hover {
-    text-decoration: underline; /* Subrayado al pasar el mouse (opcional) */
-  }
-  
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.portfolio-about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.portfolio-section-title {
+  font-size: 2rem;
+  color: var(--color-text-primary);
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: 300;
+  font-family: var(--font-family);
+}
+
+.portfolio-subsection-title {
+  font-size: 1.25rem;
+  color: var(--color-text-primary);
+  margin-bottom: 1rem;
+  font-family: var(--font-family);
+}
+
+.portfolio-description-text {
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  text-align: justify;
+  font-family: var(--font-family);
+}
+
+.portfolio-contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: var(--font-family);
+}
+
+.portfolio-contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.portfolio-contact-icon {
+  color: var(--color-text-secondary);
+}
+.portfolio-about-images {
+  display: inline;
+  justify-content: center; /* Centra las imágenes horizontalmente */
+  align-items: center; /* Alinea las imágenes verticalmente */
+  gap: 10px; /* Espaciado entre las imágenes */
+  max-width: 300px; /* Ajusta el ancho máximo del contenedor */
+  margin: 0 auto; /* Centra el contenedor en la página */
+}
+.portfolio-about-images img{
+  max-width: 55%; /* Ajusta el ancho de las imágenes al 45% del contenedor */
+  height: auto; /* Mantiene la proporción de las imágenes */
+  border-radius: 5px; /* Opcional: agrega bordes redondeados */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Opcional: agrega un sombreado */
+  margin-top: 5px;
+}
+
+a {
+  color: #2c3e50; /* Color del texto */
+  font-weight: bold; /* Texto en negrita */
+  text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+  text-decoration: underline; /* Subrayado al pasar el mouse (opcional) */
+}

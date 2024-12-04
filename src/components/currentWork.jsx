@@ -11,11 +11,11 @@ function literature() {
 "
         link="/Design Project.pdf"
         isDownload={true}
-        linktext="Look my Design Project"
+        linktext="Download my design project"
       ></CurrentGrid>
       <CurrentGrid
         image="website"
-        nombre="Website"
+        nombre="Multimedia Project"
         texto="Welcome to my Typing Lessons website! This resource is designed to support teachers in delivering engaging and effective typing lessons for elementary students using the Typetastic program. Explore lesson plans, interactive activities, and assessment tools tailored to foster digital literacy and make learning to type both fun and impactful.
 "
         link="https://typing-lessons-864h.vercel.app/"
@@ -24,12 +24,12 @@ function literature() {
       ></CurrentGrid>
       <CurrentGrid
         image="literature"
-        nombre="Lit Review"
+        nombre="Literature Review"
         texto="My literature review explores the benefits of dual language immersion programs, examining their impact on student achievement, cognitive development, and bilingual proficiency. It highlights key factors such as teacher and student perspectives, motivation, and cultural connections to showcase how these programs support academic success and personal growth.
 "
         link="/Lit Review.pdf"
         isDownload={true}
-        linktext="Look my Lit Review"
+        linktext="Download here"
       ></CurrentGrid>
     </>
   );

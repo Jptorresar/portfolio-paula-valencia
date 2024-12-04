@@ -8,7 +8,7 @@ function Header(props) {
         <div className="portfolio-header-content">
           <div className="portfolio-header-logo">Paula Valencia</div>
           <nav className="portfolio-navigation">
-          {['welcome', 'about', 'current Work'].map((page) => (
+          {['welcome', 'about me', 'current Work'].map((page) => (
               <button 
                 key={page}
                 className={`portfolio-nav-button ${

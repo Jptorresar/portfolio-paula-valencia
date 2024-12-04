@@ -1,5 +1,5 @@
 import "../styles/about.css";
-import { Mail, Phone, MapPinHouse, FileDown } from "lucide-react";
+import { Mail, Phone, FileDown } from "lucide-react";
 
 function about() {
   return (
@@ -47,34 +47,37 @@ function about() {
               <Phone className="portfolio-contact-icon" />
               <span className="portfolio-contactText">(864) 303-7925</span>
             </div>
-            <div className="portfolio-contact-item">
-              <MapPinHouse className="portfolio-contact-icon" />
-              <span className="portfolio-contactText">
-                355 Pelham Rd, Unit 4207 Greenville SC 29615
-              </span>
-            </div>
             <h2>Downloads</h2>
-          
-              <div className="portfolio-contact-item">
-                <FileDown className="portfolio-contact-icon" />
-                <a
-                  href="/Resume Valencia.pdf"
-                  download="Resume Valencia.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  My Resume
-                </a>
-                <a
-                  href="/Cover Letter Valencia.pdf"
-                  download="Cover Letter Valencia.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  My cover letter
-                </a>
-              </div>
-            
+
+            <div className="portfolio-contact-item">
+              <FileDown className="portfolio-contact-icon" />
+              <a
+                href="/Resume Valencia.pdf"
+                download="Resume Valencia.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                My Resume
+              </a>
+              <a
+                href="/Cover Letter Valencia.pdf"
+                download="Cover Letter Valencia.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                My cover letter
+              </a>
+            </div>
+          </div>
+          <div className="portfolio-about-images">
+            <img
+              src={require("../resources/about 1.png")}
+              alt="Profile"
+            />
+            <img
+              src={require("../resources/about 2.png")}
+              alt="Profile"
+            />
           </div>
         </div>
       </div>
